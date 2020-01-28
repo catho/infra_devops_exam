@@ -7,7 +7,7 @@ _Please read these instructions carefully._
 
 #### 1. Development Skills
 
-We have an API Application called **devopsExam** , it based in Python Language and it has 2 main routes _/users_, _/user/\{id\}_. The route _/users_ has 2 methods (_GET_ and _POST)_, the method _GET_ return all users on database (in this application, database is a ElastiCache Redis) and the method _POST_ create a new user. The route _/user/\{id\}_ has only 1 method (_GET_), this method returns a specific user based on _id_.
+We have an API Application called [devopsExam](devopsExam/devopsExam.py), it based in Python3.7 and it has 2 main routes _/users_, _/user/\{id\}_. The route _/users_ has 2 methods (_GET_ and _POST)_, the method _GET_ return all users on database (in this application, database is a ElastiCache Redis) and the method _POST_ create a new user. The route _/user/\{id\}_ has only 1 method (_GET_), this method returns a specific user based on _id_.
 
 The main objective in this challenge, is solve a problem in application code (really basic problem).
 
